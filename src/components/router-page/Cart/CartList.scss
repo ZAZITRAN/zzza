@@ -1,0 +1,385 @@
+.cart {
+    margin: 50px auto ;
+    width: 90%;
+    
+    
+    .cart-title {
+        
+        width: 100%;
+        text-align: center;
+
+        p {
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            color: black;
+        }
+
+
+    }
+
+    .cart-info {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+
+        .cart-list {
+            width: calc(100% - 400px);
+
+            .select-all {
+                display: flex;
+                margin-left: 25px;
+
+                p {
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: gray;
+                    margin-left: 10px;
+                }
+            }
+
+            .product-cart {
+                display: flex;
+                width: 100%;
+                height: max-content;
+
+
+                .product-info {
+                    width: 100%;
+                    display: flex;
+
+                    .img-product {
+                        margin: 15px;
+                        width: 180px;
+                        height: 180px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .right-list {
+                        width: calc(100% - 180px);
+                        display: flex;
+                        justify-content: space-between;
+
+                        .bill-product {
+                            .name {
+                                margin-top: 20px;
+                                font-weight: 400;
+                                font-size: 24px;
+                                color: black;
+                            }
+
+                            .price {
+                                margin-top: 15px;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 24px;
+                                color: black;
+                            }
+
+                            .quantity {
+                                margin-top: 28px;
+                                width: 120px;
+                                height: 40px;
+                                display: flex;
+                                justify-content: space-between;
+
+                                .img-increase {
+                                    border: none;
+                                    height: 40px;
+                                    width: 40px;
+                                    background-color: blue;
+
+                                    img {
+                                        width: 16px;
+                                        height: 16px;
+                                    }
+                                }
+
+                                .img-decrease {
+                                    border: none;
+                                    height: 40px;
+                                    width: 40px;
+                                    background-color: blue;
+
+                                    img {
+                                        width: 16px;
+                                        height: 5px;
+                                        padding-bottom: 1px;
+                                    }
+                                }
+
+
+                                p {
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 40px;
+                                    color: black;
+                                }
+                            }
+                        }
+
+                        .remove {
+                            img {
+                                margin-top: 70px;
+                                height: 25px;
+                                width: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .pay-box {
+            margin-left: 20px;
+            width: 400px;
+
+            .summary-box {
+                margin: 40px auto;
+                text-align: center;
+                padding: 30px;
+                width: 400px;
+                height: 340px;
+                border: 1px solid black;
+                border-radius: 10px;
+
+                button{
+                    cursor: pointer;
+                }
+                .continue{
+                    cursor: pointer;
+                    &:hover{
+                        color: grey;
+                    }
+                }
+                .summary {
+                    text-align: left;
+                    font-weight: 500;
+                    font-size: 24px;
+                    color: black;
+                }
+
+                .total-box {
+                    display: flex;
+                    width: 100%;
+                    height: 36px;
+                    justify-content: space-between;
+                    margin: 40px 0 45px 0;
+
+                    .text {
+                        margin-right: 10px;
+                        font-weight: 500;
+                        font-size: 24px;
+                        color: gray;
+                        line-height: 36px;
+                    }
+
+                    .price {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        color: black;
+
+                    }
+
+                }
+            }
+
+            button {
+                width: 80%;
+                height: 64px;
+                background-color: blue;
+                color: white;
+                font-weight: 500;
+                font-size: 18px;
+                margin: 0 auto;
+                border-radius: 10px;
+            }
+
+            .continue {
+                font-weight: 500;
+                font-size: 18px;
+                margin-top: 32px;
+                color: black;
+            }
+        }
+
+        .pay-box-media {
+            display: none;
+            width: 100%;
+
+
+
+
+            .pay-center {
+                border: 1px solid black;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 30px;
+
+                .summary-box {
+                    text-align: center;
+                    width: max-content;
+
+
+
+                    .summary {
+                        text-align: left;
+                        font-weight: 500;
+                        font-size: 24px;
+                        color: black;
+                    }
+                    
+
+                    .total-box {
+                        display: flex;
+                        width: 250px;
+                        height: 36px;
+                        justify-content: space-between;
+                        margin: 40px 0 45px 0;
+
+                        .text {
+                            font-weight: 500;
+                            font-size: 24px;
+                            color: gray;
+                            line-height: 36px;
+                        }
+
+                        .price {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 36px;
+                            color: black;
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .pay-button {
+            text-align: center;
+            button {
+                width: 80%;
+                height: 64px;
+                background-color: blue;
+                color: white;
+                font-weight: 500;
+                font-size: 18px;
+                margin: 0 auto;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .continue {
+                font-weight: 500;
+                font-size: 18px;
+                margin-top: 32px;
+                color: black;
+                
+                    cursor: pointer;
+                    &:hover{
+                        color: grey;
+                    }
+                
+            }
+        }
+    }
+
+}
+
+
+@media (max-width:1100px) {
+    .cart-info {
+        display: block !important;
+
+        .cart-list {
+            width: 90% !important;
+            margin-bottom: 30px;
+        }
+
+        .pay-box {
+            display: none;
+            /* margin: 0 auto;
+            text-align: center;
+            width: 90% !important; */
+        }
+
+        .pay-box-media {
+            display: block !important;
+        }
+    }
+}
+
+@media (max-width:610px) {
+    .cart-list {
+        width: 90% !important;
+        margin: 0 auto;
+
+        .product-cart {
+            position: relative;
+            display: block !important;
+
+            .product-info {
+                display: block !important;
+
+                .img-product {
+                    margin: 0 auto !important;
+                }
+
+                .right-list {
+                    width: 100% !important;
+                    display: block !important;
+
+                    .bill-product {
+                        width: 100%;
+                        margin: 0 auto;
+                        text-align: center;
+
+                        .quantity {
+                            margin: 0 auto;
+                        }
+
+                    }
+
+                    .remove {
+                        margin-top: 0;
+                        padding: 0;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        margin: 0;
+                        padding: 0;
+
+                        img {
+                            margin-top: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .pay-box-media{
+        display: none !important;
+    }
+}
+
+@media(max-width:420px) {
+    .pay-center {
+        text-align: center;
+        display: block !important;
+
+        .total-box {
+            width: 100% !important;
+        }
+    }
+}

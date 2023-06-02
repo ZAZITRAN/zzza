@@ -1,0 +1,36 @@
+.products-list{
+    width: 90%;
+    margin: 50px auto;
+    /* height: calc(100vh - 350px); */
+    &-breadcrumb{
+        margin-bottom: 30px;
+        
+    }
+    &-search{
+       padding-bottom: 10px;
+       border-bottom: 1px solid black;
+       text-align: center;
+
+        
+    }
+    &-type{
+        display: flex;
+        justify-content: center;
+
+        p{
+            margin: 5px 10px;
+            font-size: large;
+            &:hover{
+                cursor: pointer;
+                scale: 1.2;
+            }
+        }
+    }
+    &-item{
+        width:100%;
+        
+       
+        
+    }
+
+}

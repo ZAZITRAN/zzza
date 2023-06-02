@@ -1,0 +1,51 @@
+{
+  "whishlist": [
+    {
+      "id": 1685688890389,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1683170041/Bong-ro/Persian-cat-compressed-768x384_qfo2uj.jpg",
+      "spec": "cat",
+      "type": "Persian",
+      "size": 10,
+      "color": "white",
+      "age": 4,
+      "price": 6000000,
+      "class": "pets",
+      "userId": "113516115807919156523",
+      "petId": 7
+    }
+  ],
+  "cart": [
+    {
+      "id": 1685689208176,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685191352/VsnImageServices_8_sdxjno.png",
+      "name": "Yellow Plastic Floor 40*60",
+      "sale": 0,
+      "price": 410000,
+      "quantity": 1,
+      "userId": "113516115807919156523",
+      "productId": 10,
+      "isChecker": true
+    },
+    {
+      "id": 1685689218378,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685191695/VsnImageServices_9_uf6sqs.png",
+      "name": "Carge 40*40*6",
+      "sale": 30,
+      "price": 200000,
+      "quantity": 1,
+      "userId": "113516115807919156523",
+      "productId": 11,
+      "isChecker": true
+    }
+  ],
+  "adress": [
+    {
+      "id": "113516115807919156523",
+      "phone": "",
+      "ward": "",
+      "district": "",
+      "province": ""
+    }
+  ],
+  "bill": []
+}

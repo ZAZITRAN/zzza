@@ -1,0 +1,111 @@
+.card{
+
+    margin: 30px auto;
+    padding: 1px ;
+    width:254px;
+    text-align: center;
+    position: relative;
+    border: 1px solid gray;
+    img{
+       
+        min-width: 100%;
+        transition: 0.5s;
+        &:hover{
+         
+            scale:1.1
+            
+        }  
+    }
+    h3{
+        font-size: 16px;
+        &:hover{
+            cursor: pointer;
+            color: grey;
+            
+        }
+    }
+    .contact {
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .not-sale{
+        font-size: 20px;
+    }
+    .on-sale{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .old-price{
+            font-size: 18px;
+            text-decoration: line-through;
+            color: grey;
+        }
+        .new-price{
+            font-size: 20px;
+        }
+    }
+    .sale-box{
+        height: 45px;
+        width: 45px;
+        background-color: red;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 10px;
+        left:10px;
+
+        p{
+            line-height: 45px ;
+            color: white;
+            font-weight: 800 ;
+
+        }
+    }
+    .whishlist{
+        position: absolute;
+        left: 233px;
+        top: -15px;
+
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        
+        background-color: rgb(236, 236, 236);
+        opacity: 1;
+        line-height: 35px;
+        text-align: center;
+        &:hover{
+            scale: 1.1;
+            transition: 0.5s;
+            cursor: pointer;
+           .whishlist-hover{
+            display: block;
+           }
+        }
+        
+        &-icon{
+           
+            color: black;
+            font-size: 19px;
+            
+        }
+        
+        &-hover{
+            padding: 5px 10px;
+            opacity: 0.85;
+            display: none;
+            width: max-content;
+            background-color: rgb(251, 244, 231);
+            position: absolute;
+            right: 40px;
+            top: 0;
+            p{
+                opacity: 1;
+            }
+        }
+       
+    }
+}

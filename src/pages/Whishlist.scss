@@ -1,0 +1,69 @@
+.whishlist{
+    width: 90%;
+    margin: 0 auto;
+    &-tab{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        &-pets{
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        &-products{
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    }
+    &-info{
+        width: 100;
+        display: flex;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+
+        &-right{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% - 300px);
+            &-bill{
+                &-type{
+                    font-size: 30px;
+                    font-weight: 800      ;
+                }
+                &-color{
+                    font-size: 25px;
+                    font-weight: 400
+                }
+                &-age{
+                    font-size: 25px;
+                    font-weight: 400
+                }
+                &-price{
+                    font-size: 25px;
+                    font-weight: 400
+                }
+            }
+            &-add-to-cart{
+                text-align: start;
+                font-size: 23px;
+                padding: 0  ;
+
+                .card{
+                    width: max-content;
+                    margin:  10px 0;
+                }
+            }
+            &-remove{
+                width: 40px;
+                height: 100%;
+                padding: 63px 0;
+
+                img{
+                    width: 100%;
+                    
+                }
+            }
+
+        }
+    }
+}

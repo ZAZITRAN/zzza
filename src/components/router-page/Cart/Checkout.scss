@@ -1,0 +1,122 @@
+.checkout{
+    width: 90%;
+    margin:40px auto ;
+    height: calc(100vh - 300px);  
+    
+    &-info{
+        margin: 40px auto;
+        width: 100%;
+        display: flex;
+        &-left{
+            width: 40%;
+           
+
+            .adress-box{
+
+                width:100%;
+                padding: 10px 10px;
+                height: max-content;
+                border:1px solid black;
+                border-radius: 10px;
+                margin: 0 10px;
+
+                .contact-title{
+                    font-weight: 600;
+                    font-size:25px
+                }
+                .contact {
+                    margin: 10px 0;
+
+                    .phone{
+                        font-weight: 400;
+                        font-size:20px; 
+                        &-info{
+                            font-size: 20px;
+                            font-weight: 300;
+                        }
+                    }
+                    .adress{
+                        font-weight: 400;
+                        font-size:20px; 
+                        &-info{
+                            font-size: 20px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        &-right{
+            width: 60%;
+            margin: 0 40px;
+            .bill-box{
+                width: 100%;
+                height: max-content;
+                border:1px solid black;
+                border-radius: 10px;
+                padding: 10px;
+                .bill{
+                    font-weight: 600;
+                    font-size:25px
+                }
+                .bill-info{
+                    border-bottom: 1px solid grey;
+                    &-item{
+                        margin-bottom: 5px;
+                        &-name{
+                            font-size: 20px;
+                            font-weight: 300;
+                        }
+                        &-box{
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+
+                }
+                .total{
+                    margin: 5px 0 10px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    &-text{
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+            
+    }
+
+}
+@media (max-width:710px) {
+    .checkout{
+        &-info{
+            display: block;
+
+            &-left{
+                margin-left: 0;
+                width: 100%;
+                margin-bottom: 30px;
+                .adress-box{
+                    margin: 0;
+                    .contact{
+                        margin-bottom: 10px;
+                        .phone{
+                        margin-bottom: 10px;
+    
+                        }
+                    }
+                }
+            }
+            &-right{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+        }
+    }
+}

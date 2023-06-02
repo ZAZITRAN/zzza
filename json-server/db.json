@@ -1,0 +1,189 @@
+{
+  "users": [],
+  "userLogin": [],
+  "pets": [
+    {
+      "id": 1,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1682938870/pet/tim-hieu-giong-cho-poodle-nguon-goc-dac-diem-cach-nuoi-bang-gia-202104151447536289_jdfxf5.jpg",
+      "spec": "dog",
+      "type": "poodle",
+      "size": 2,
+      "color": "brown",
+      "age": 18,
+      "price": 3000000
+    },
+    {
+      "id": 2,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1682939325/pet/Alaskan-Malamute_FeaturedImage-1024x615_cwfrvg.webp",
+      "spec": "dog",
+      "type": "alaska",
+      "size": 9,
+      "color": "white-back",
+      "age": 3,
+      "price": 4500000,
+      "purchases": 1
+    },
+    {
+      "id": 3,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1682939563/pet/49482101_1992628450826657_303573880528699392_n_ws49ca.jpg",
+      "spec": "dog",
+      "type": "alaska",
+      "size": 15,
+      "color": "white-brown",
+      "price": 3800000,
+      "age": 2
+    },
+    {
+      "id": 5,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1682948008/pet/2_0_0_dhmer5.jpg",
+      "spec": "dog",
+      "type": "husky",
+      "size": 18,
+      "color": "white-black",
+      "age": 2,
+      "price": 6000000
+    },
+    {
+      "id": 6,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,w_300/v1683538660/pet/brown-alaskan-malamute-dog-cheating-face-copper-144418651_k2d2ux.jpg",
+      "spec": "dog",
+      "type": "alaska",
+      "size": 20,
+      "color": "brown",
+      "age": 13,
+      "price": 3600000
+    },
+    {
+      "id": 7,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1683170041/Bong-ro/Persian-cat-compressed-768x384_qfo2uj.jpg",
+      "spec": "cat",
+      "type": "Persian",
+      "size": 10,
+      "color": "white",
+      "age": 4,
+      "price": 6000000
+    },
+    {
+      "id": 8,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1683171861/Bong-ro/meo-maine-coon-nguon-goc-dac-diem-cach-nuoi-gia-ban-202211300744208664_tbrtm6.jpg",
+      "spec": "cat",
+      "type": "Maine Coon",
+      "size": 15,
+      "color": "grey",
+      "age": 7,
+      "price": 4700000
+    },
+    {
+      "id": 9,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_200,w_300/v1683172461/pet/download_1_ru1og3.jpg",
+      "spec": "cat",
+      "type": "British Shorthair",
+      "size": 10,
+      "color": "grey",
+      "age": 4,
+      "price": 3950000
+    }
+  ],
+  "products": [
+    {
+      "key": 1,
+      "name": "Araton Dog Junior Lamb",
+      "id": 1,
+      "type": "Food",
+      "sale": "30",
+      "purchases": 1,
+      "price": "41000",
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685187959/VsnImageServices_xtvl2a.png"
+    },
+    {
+      "id": 2,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685188420/VsnImageServices_1_sjyzhu.png",
+      "type": "Food",
+      "name": "Araton Dog Adult Salmon",
+      "price": 410000,
+      "sale": 0,
+      "purchases": 1
+    },
+    {
+      "id": 4,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685188608/Gakhochonhieusua208492_tflb07.jpg",
+      "type": "Food",
+      "name": "Drieb Chicken For Dog",
+      "price": 410000,
+      "sale": 0,
+      "purchases": 0
+    },
+    {
+      "id": 5,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685188905/VsnImageServices_2_s44emd.png",
+      "type": "Shower gel",
+      "name": "Hantox Anti-bug",
+      "price": 70000,
+      "sale": 20,
+      "purchases": 1
+    },
+    {
+      "id": 6,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685189292/VsnImageServices_3_qgs5ff.png",
+      "type": "Food",
+      "name": "Araton Cat Adult Salmon",
+      "price": 410000,
+      "sale": 10,
+      "purchases": 1
+    },
+    {
+      "id": 7,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685189510/VsnImageServices_5_mf4lhs.png",
+      "type": "Shower gel",
+      "name": "Modern Pet Gel Plus",
+      "price": 170000,
+      "sale": 0,
+      "purchases": 1
+    },
+    {
+      "id": 8,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685189790/VsnImageServices_6_dyhdny.png",
+      "type": "Shower gel",
+      "name": "Micona Anti-mushrooms",
+      "price": 410000,
+      "sale": 0,
+      "purchases": 5
+    },
+    {
+      "id": 9,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685190853/VsnImageServices_7_c7lvdl.png",
+      "type": "Medicine",
+      "name": "Heartgart Blue Tab",
+      "sale": 0,
+      "purchases": 1,
+      "price": 70000
+    },
+    {
+      "id": 10,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685191352/VsnImageServices_8_sdxjno.png",
+      "type": "Accessory",
+      "name": "Yellow Plastic Floor 40*60",
+      "price": 410000,
+      "sale": 0,
+      "purchases": 1
+    },
+    {
+      "id": 11,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685191695/VsnImageServices_9_uf6sqs.png",
+      "type": "Accessory",
+      "name": "Carge 40*40*6",
+      "price": 200000,
+      "purchases": 0,
+      "sale": 30
+    },
+    {
+      "id": 12,
+      "image": "https://res.cloudinary.com/dhknvtaq2/image/upload/c_pad,h_200,w_300/v1685299965/VsnImageServices_10_ohzahp.png",
+      "type": "Food",
+      "name": "Vibar Nutri-plus Gen",
+      "price": 410000,
+      "purchases": 0,
+      "sale": 40
+    }
+  ]
+}

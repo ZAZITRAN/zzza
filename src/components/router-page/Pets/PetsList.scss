@@ -1,0 +1,22 @@
+.pets-list{
+    width: 90%;
+    margin: 50px auto;
+    height: calc(100vh - 350px);
+
+    &-breadcrumb{
+        margin-bottom: 30px;
+        
+    }
+    &-search{
+       padding-bottom: 10px;
+       border-bottom: 1px solid black;
+       text-align: center;
+
+        
+    }
+    &-item{
+        width:100%
+        
+    }
+
+}
